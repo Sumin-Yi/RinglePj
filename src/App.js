@@ -1,10 +1,9 @@
 import React from 'react';
-import Chat from './features/chat/chatSlice.js';
+import Chat from './features/chats/chat';
 
 function App() {
   return (
     <div className="App">
-      <h1>Chatbot</h1>
       <Chat />
     </div>
   );
